@@ -1,12 +1,12 @@
 :root {
-  --primary-color: #0d6efd;
+  --primary-color: #0dcaf0;
   --secondary-color: #e6f0f7;
   --box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
 }
 
 body {
   margin-top: 100px;
-  background-image: linear-gradient(to right, #eea2a2 0%, #bbc1bf 19%, #57c6e1 42%, #b49fda 79%, #7ac5d8 100%);
+  background-image: linear-gradient(to top, #e8198b 0%, #c7eafd 100%);
 }
 
 h1,
@@ -76,8 +76,8 @@ p {
 .email-link {
   display: flex;
   justify-content: center;
-  color: var(--primary-color);
-  font-size: 28px;
+color: #ffffff;
+  font-size: 15px;
   text-decoration: none;
 }
 
@@ -129,7 +129,7 @@ p {
     font-size: 14px;
   }
 
-  .yoga-app-row-mobile-style,
+  .croissant-app-row-mobile-style,
   .weather-app-row-mobile-style {
     margin: 30px 20px;
   }
@@ -141,6 +141,7 @@ p {
 
   .images-index-page {
     display: none;
+    margin: 0 auto;
   }
 
   .about-me-headingOne {
